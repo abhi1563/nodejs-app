@@ -6,7 +6,6 @@ Great for testing simple deployments on Cloud
 
 ## Step 1: Install NodeJS 
 
-
 sudo dnf install -y nodejs
 
 ```bash
