@@ -25,6 +25,7 @@ pipeline {
         }
         stage('start pm2') {
             steps {
+                sh 'pm2 delete my-app || true'
                 sh 'pm2 start index.js --name my-app'
                 sh 'pm2 save'
             }
